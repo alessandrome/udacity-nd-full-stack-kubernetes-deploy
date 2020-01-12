@@ -19,6 +19,7 @@ __pycache__
 config.py
 !env_file.example
 examples/
+app/
 
 # Coverage reports
 htmlcov/
