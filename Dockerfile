@@ -8,4 +8,4 @@ RUN pip install -r ./requirements.txt
 
 EXPOSE 8080
 
-ENTRYPOINT ["gunicorn", "-b :8080", "main:APP", "--env-file=env_file"]
+ENTRYPOINT ["gunicorn", "-b :8080", "main:APP"]
