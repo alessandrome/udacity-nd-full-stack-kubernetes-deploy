@@ -34,7 +34,6 @@ def _logger():
     return log
 
 
-# Init APP
 LOG = _logger()
 LOG.debug("Starting with log level: %s" % LOG_LEVEL )
 APP = Flask(__name__)
