@@ -1,6 +1,8 @@
 FROM python:stretch
 
 COPY . /
+COPY ./config.example.py /config.py
+COPY ./env_file.example /env_file
 WORKDIR /
 
 RUN pip install --upgrade pip
